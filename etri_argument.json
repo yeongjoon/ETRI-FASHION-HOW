@@ -1,0 +1,19 @@
+{
+    "data_dir":"../augment_ratio4/",
+    "task_name": "etri",
+    "model_name_or_path": "/data/yeongjoon/ETRI_FASHION/models/OnlyElectra64_ratio4_feat_attention",
+    "output_dir": "/data/yeongjoon/ETRI_FASHION/models/OnlyElectra64_ratio4_feat_attention",
+    "max_seq_length": 512,
+    "num_train_epochs": 5,
+    "per_device_train_batch_size": 16,
+    "per_device_eval_batch_size": 16,
+    "seed": 1,
+    "do_train": false,
+    "do_eval": false,
+    "do_predict": true,
+    "learning_rate": 3e-5,
+    "save_steps": 3548,
+    "logging_steps": 100,
+    "no_cuda": false,
+    "overwrite_cache": true
+}

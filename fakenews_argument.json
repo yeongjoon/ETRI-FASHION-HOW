@@ -1,0 +1,15 @@
+{
+    "data_dir":"/workspace/Fakenews/data",
+    "task_name": "sst-2",
+    "model_name_or_path": "albert-large-v1",
+    "output_dir": "/workspace/Fakenews/test",
+    "max_seq_length": 256,
+    "num_train_epochs": 5,
+    "per_device_train_batch_size": 8,
+    "seed": 1,
+    "do_train": true,
+    "do_eval": true,
+    "do_predict": false,
+    "learning_rate": 3e-5,
+    "save_steps": 11570
+}
